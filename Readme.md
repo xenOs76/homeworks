@@ -15,3 +15,18 @@ But in any case, I must tell, I had way more fun than expected.
 
 I'm sharing these **homeworks** because there's always time to get back to school once the music is over.     
 Unless, by the way, You're looking for a brand new school book...  
+
+
+## Changelog
+
+* Initial import: examples of Tinygo running on an Arduino Nano33 Iot
+
+I'm looking for a way to control an Arduino Nano33 Iot over Mqtt.   
+I'd like to use the board to get some data from a sensor and drive a Neopixel strip.   
+I did translate the Neopixel Rainbow animation from a Python example into Go/Tinygo in the past. 
+It used to run on an Adafruit Circuit Playground Express Bluefruit too.   
+I'm using a local Mosquitto server running on Raspbian and RPI3.   
+Did also some performance tests about Mosquitto and RPI Zero. Had lame results.  
+
+When I restart the Mosquitto server, the client loses the connection both while publishing and subscribing.  
+The most effective solution I found is a board reset after a few failed attempts of publishing on an hearth beat Mqtt channel.    
