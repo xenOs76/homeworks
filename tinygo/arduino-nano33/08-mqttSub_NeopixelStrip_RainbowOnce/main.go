@@ -5,7 +5,7 @@
 //
 // tinygo flash -target arduino-nano33 main.go
 // screen /dev/ttyACM0
-// mosquitto_pub -h 192.168.0.24 -t "nano33/input" -m "0"
+// mosquitto_pub -h 192.168.0.24 -t "nano33/input" -m "1"
 //
 
 package main

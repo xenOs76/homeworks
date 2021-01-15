@@ -1,6 +1,7 @@
 /*
 *
-*  tinygo run main.go
+*
+*  tinygo flash -target arduino-nano33 main.go
  */
 
 package main
