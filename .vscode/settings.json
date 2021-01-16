@@ -1,6 +1,0 @@
-{
-    "go.toolsEnvVars": {
-        "GOROOT": "/home/gcivitella/.cache/tinygo/goroot-go1.15.6-e85078c6cd30dde014befef7116f020e9a75920f90477cae2bee525b2adfe149-syscall",
-        "GOFLAGS": "-tags=arduino_nano33,atsamd21g18a,atsamd21g18,atsamd21,sam,cortexm,baremetal,linux,arm,tinygo,gc.conservative,scheduler.tasks"
-    }
-}
