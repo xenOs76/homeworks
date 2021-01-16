@@ -19,12 +19,31 @@ Unless, by the way, You're looking for a brand new school book...
 
 ## Changelog
 
-* Initial import: examples of Tinygo running on an Arduino Nano33 Iot
+### 20210116 - import some Arduino examples
 
-I'm looking for a way to control an Arduino Nano33 Iot over Mqtt.   
+>*– è dolce o amara?*  
+>*– è amara, ma ti farà bene.*  
+>*– Se è amara, non la voglio.*  
+>*– Dà retta a me: bevila.*  
+>*– A me l’amaro non mi piace.*  
+>*– Bevila: e quando l’avrai bevuta, ti darò una pallina di zucchero, per rifarti la bocca.*  
+>*– Dov’è la pallina di zucchero?*  
+>*– Eccola qui, – disse la Fata, tirandola fuori da una zuccheriera d’oro.*  
+>*– Prima voglio la pallina di zucchero, e poi beverò quell’acquaccia amara...*  
+
+
+I'm stuck with the [RainbowOnce](tinygo/arduino-nano33/08-mqttSub_NeopixelStrip_RainbowOnce/) example when it comes to receiving commands from Mqtt in a coroutine: *sure, bro, You can spin a rainbow. But You cannot let it shine as long as you want*.   
+I feel I'm missing something. I'm pointing in the wrong direction, perhaps.   
+Let's get back to [Arduino](https://www.arduino.cc/) IDE and examples while waiting to see my *Nano* standing on the shoulder of giants.    
+So I lined up on the breadboard an *[Arduino MKR Wifi 1010](/arduino/ArduinoMKRWifi1010/)* and uploaded some [FastLED](http://fastled.io/) [examples](/arduino/ArduinoMKRWifi1010/00-fastled/), some Mqtt examples and an old classic: the candy from a stranger.    
+I uploaded an adapted version of the Arduino sketch from *[Multi-tasking the Arduino](https://learn.adafruit.com/multi-tasking-the-arduino-part-3/overview)*, an [Adafruit](https://www.adafruit.com/) tutorial explaining how to have two or three loops animating LEDs indipendently. Something that should be even easier to do with Tinygo, right?
+
+### 20210115 - Initial import: examples of Tinygo running on an Arduino Nano33 Iot
+
+I'm looking for a way to control an *[Arduino Nano33 Iot](/tinygo/arduino-nano33/)* over Mqtt.   
 I'd like to use the board to get some data from a sensor and drive a Neopixel strip.   
 I did translate the Neopixel Rainbow animation from a Python example into Go/Tinygo in the past. 
-It used to run on an Adafruit Circuit Playground Express Bluefruit too.   
+It used to run on an *Adafruit Circuit Playground Express Bluefruit* too.   
 I'm using a local Mosquitto server running on Raspbian and RPI3.   
 Did also some performance tests about Mosquitto and RPI Zero. Had lame results.  
 
