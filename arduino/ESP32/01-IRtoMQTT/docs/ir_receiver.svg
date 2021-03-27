@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="515px" height="174px" viewBox="0 0 515 174" enable-background="new 0 0 515 174" xml:space="preserve">
+<rect x="24.684" y="75.034" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="21.955" height="9.477"/>
+<rect x="17.272" y="75.034" fill="#FFFFFF" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" width="7.411" height="9.477"/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" points="7.864,81.904 11.897,84.511 
+	17.272,84.511 17.272,75.034 11.897,75.034 7.864,77.641 "/>
+<g>
+	<polyline fill="#FFFFFF" points="35.661,91.545 35.661,107 53.622,107 	"/>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-linejoin="round" points="35.661,96.803 35.661,107 53.622,107 		"/>
+		<g>
+			<polygon points="41.752,97.617 29.603,97.617 35.677,91.545 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<polyline fill="#FFFFFF" points="21.661,68 21.661,47 53.622,47 	"/>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-linejoin="round" points="21.661,62.742 21.661,47 53.622,47 		"/>
+		<g>
+			<polygon points="15.57,61.927 27.72,61.927 21.646,68 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<polyline fill="#FFFFFF" points="12.568,91.545 12.568,127 53.622,127 	"/>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-linejoin="round" points="12.568,96.803 12.568,127 53.622,127 		"/>
+		<g>
+			<polygon points="18.659,97.617 6.51,97.617 12.584,91.545 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 55.6221 131)" font-family="'MyriadPro-Regular'" font-size="12">Tip = IR Signal</text>
+<text transform="matrix(1 0 0 1 55.6221 111)" font-family="'MyriadPro-Regular'" font-size="12">Sleeve = GND</text>
+<text transform="matrix(1 0 0 1 55.6221 51)" font-family="'MyriadPro-Regular'" font-size="12">Ring = 3.3V</text>
+<polyline fill="none" stroke="#10AA4B" stroke-width="3" stroke-miterlimit="10" points="109.622,73.034 188.501,73.034 
+	188.501,64.5 231.501,64.5 "/>
+<polyline fill="none" stroke="#ED1F24" stroke-width="3" stroke-miterlimit="10" points="109.622,87.033 188.501,87.033 
+	188.501,94.5 231.501,94.5 "/>
+<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="109.622" y1="80.034" x2="231.501" y2="80.034"/>
+<rect x="231.501" y="55.5" fill="#565656" width="61" height="49.5"/>
+<circle fill="#232323" stroke="#000000" stroke-miterlimit="10" cx="267.501" cy="80.034" r="15.333"/>
+<text transform="matrix(1 0 0 1 418.835 77.833)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">1. Signal Out</tspan><tspan x="0" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">2. GND</tspan><tspan x="0" y="28.8" font-family="'MyriadPro-Regular'" font-size="12">3. Vcc (2.7V - 5.5V)</tspan></text>
+<line fill="none" stroke="#10AA4B" stroke-width="3" stroke-miterlimit="10" x1="348.951" y1="151.333" x2="348.951" y2="108.333"/>
+<line fill="none" stroke="#ED1F24" stroke-width="3" stroke-miterlimit="10" x1="378.951" y1="151.333" x2="378.951" y2="108.333"/>
+<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="364.485" y1="151.333" x2="364.485" y2="108.333"/>
+<rect x="339.951" y="47.333" fill="#565656" width="49.5" height="61"/>
+<circle fill="#232323" stroke="#000000" stroke-miterlimit="10" cx="364.702" cy="72.333" r="15.333"/>
+<text transform="matrix(1 0 0 1 321.6758 19.6665)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">Vishay TSOP4838</tspan><tspan x="-4.596" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">IR Receiver Module</tspan></text>
+<text transform="matrix(1 0 0 1 346.833 166.334)" font-family="'MyriadPro-Regular'" font-size="12" letter-spacing="3">1 2 3</text>
+<text transform="matrix(1 0 0 1 96.2065 23.6665)" font-family="'MyriadPro-Regular'" font-size="18">IR Receiver Pinout</text>
+<rect x="46.639" y="68" stroke="#000000" stroke-miterlimit="10" width="62.983" height="23.545"/>
+</svg>
